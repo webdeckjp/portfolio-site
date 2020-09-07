@@ -54,7 +54,7 @@ span.red {
 
 .wrapper {
   width: 100%;
-  padding: 0px 16px;
+  padding: 0px 24px;
 }
 
 img.logo {
@@ -130,6 +130,8 @@ div.flexbox {
     display: flex;
     gap: 20px;
     align-items: center;
+    flex-wrap: wrap;
+flex-shrink: 0;
 }
 
 .intro {
@@ -138,6 +140,7 @@ div.flexbox {
 
 .column {
 flex: 1;
+min-width: 400px;
 }
 
 .right {
